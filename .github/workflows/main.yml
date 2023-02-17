@@ -32,11 +32,12 @@ variable: ${{github.VARIABLE_NAME}}
 
 
 name: Github Action 
+
 on:
   push:
   branch: [master]
 
-job: 
+jobs: 
     build:
     runs-on: ubuntu-latest
     steps:
