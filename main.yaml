@@ -1,0 +1,27 @@
+
+
+title: Website Name
+description: A website biult for practice
+age: 21
+
+
+
+#Array
+tag:
+-technology
+-image
+-creative
+
+
+
+#objects
+street: maholi Road
+city: Mathura
+
+
+
+#github action
+#github variable
+
+value: ${{env.VALUE}}
+value: ${{github.VARIABLE_NAME}}
