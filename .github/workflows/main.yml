@@ -1,1 +1,44 @@
 # workflow 
+
+
+
+
+title: Website Name
+description: A website biult for practice
+age: 21
+
+
+
+# Array
+tag:
+- technology
+- image
+- creative
+
+
+
+# objects
+address:
+street: maholi Road
+city: Mathura
+
+
+
+# github action
+# github variable
+
+value: ${{env.VALUE}}
+variable: ${{github.VARIABLE_NAME}}
+
+
+name: Github Action 
+on:
+  push:
+  branch: [master]
+
+job: 
+    build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Hello World
+    - run: "echo Hello World"
