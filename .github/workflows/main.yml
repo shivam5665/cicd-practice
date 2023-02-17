@@ -50,6 +50,6 @@ jobs:
       runs-on: ubuntu-latest
       steps:
        
-      - name: Print Hello World
+        name: Print Hello World
         uses: actions/checkout@v3
         run: node --version
