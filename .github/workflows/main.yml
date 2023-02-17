@@ -3,44 +3,44 @@
 
 
 
-title: Website Name
-description: A website biult for practice
-age: 21
+# title: Website Name
+# description: A website biult for practice
+# age: 21
 
 
 
-# Array
-tag:
-- technology
-- image
-- creative
+# # Array
+# tag:
+# - technology
+# - image
+# - creative
 
 
 
-# objects
-address:
-street: maholi Road
-city: Mathura
+# # objects
+# address:
+# street: maholi Road
+# city: Mathura
 
 
 
-# github action
-# github variable
+# # github action
+# # github variable
 
-value: ${{env.VALUE}}
-variable: ${{github.VARIABLE_NAME}}
+# value: ${{env.VALUE}}
+# variable: ${{github.VARIABLE_NAME}}
 
 
 name: Github Action 
 
 on:
   push:
-  branch: [master]
+  branches: [master]
 
 jobs: 
     build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkou@v2
-    - name: Hello World
-    - run: "echo Hello World"
+    - name: Print Hello World
+    - run: echo "Hello World"
